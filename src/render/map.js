@@ -1,0 +1,1 @@
+export const Map = ({ lst, render }) => lst.map(( i, k ) => render( i, k ))
