@@ -45,16 +45,17 @@ export default function DrawerGroupList() {
               </C.HStack>
             </C.Alert>
           </C.DrawerBody>
-          <C.DrawerFooter>
+          <C.DrawerFooter display='block'>
             <C.Text
+              mb={ 2 }
               fontSize='sm'
-              w='full'
               fontWeight='600'
               color='adobe.gray.1'
               fontFamily='Quicksand'
             >
               Nhóm gợi ý:
             </C.Text>
+            <Cus.GroupItem />
           </C.DrawerFooter>
         </C.DrawerContent>
       </C.Drawer>
