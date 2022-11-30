@@ -2,7 +2,7 @@ import * as C from '@chakra-ui/react'
 import * as TB from '@tabler/icons'
 import * as Cus from 'components/common'
 
-export default function DrawerGroupList() {
+export default function DrawerBase() {
   const { isOpen, onOpen, onClose } = C.useDisclosure()
 
   return (
@@ -55,7 +55,7 @@ export default function DrawerGroupList() {
             >
               Nhóm gợi ý:
             </C.Text>
-            <Cus.GroupItem />
+            <Cus.DrawerGroupItem />
           </C.DrawerFooter>
         </C.DrawerContent>
       </C.Drawer>

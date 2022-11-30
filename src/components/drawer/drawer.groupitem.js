@@ -9,7 +9,7 @@ const lstExploreGroup = [
   { name: 'Coder kids reward', url: '/groups/coderkidsreward', verified: false }
 ]
 
-export const GroupItem = () =>
+export const DrawerGroupItem = () =>
   <C.List spacing={ 2 }>
     <Cus.Map lst={ lstExploreGroup } render={( i, k ) =>
       <C.ListItem
